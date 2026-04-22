@@ -1,7 +1,7 @@
 import tensorflow as tf 
 import keras
 
-
+tf.compat.v1.disable_eager_execution()
 
 # Model Parameters
 learning_rate = 0.001
